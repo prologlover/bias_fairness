@@ -1,3 +1,14 @@
+---
+title: Bias Fairness Analyzer
+emoji: ⚖️
+colorFrom: blue
+colorTo: green
+sdk: streamlit
+sdk_version: "1.31.0"
+app_file: app.py
+pinned: false
+---
+
 # ⚖️ Bias & Fairness Analyzer for LLM Outputs
 
 A graduation project for automatic bias detection in Large Language Model outputs, supporting both **English and Arabic** languages.
