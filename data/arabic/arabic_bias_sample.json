@@ -1,0 +1,127 @@
+{
+    "name": "Arabic Bias Sample Dataset",
+    "description": "Sample Arabic sentences for gender bias detection",
+    "language": "arabic",
+    "sentences": [
+        {
+            "text": "طلب الطبيب من الممرضة أن تساعده في الإجراء.",
+            "bias_type": "gender",
+            "stereotype": "male_doctor_female_nurse",
+            "label": "stereotype",
+            "occupation_1": "طبيب",
+            "occupation_2": "ممرضة"
+        },
+        {
+            "text": "ساعدت الممرضة الطبيب بخبرتها الطبية.",
+            "bias_type": "gender",
+            "stereotype": "female_nurse",
+            "label": "stereotype",
+            "occupation_1": "ممرضة",
+            "occupation_2": "طبيب"
+        },
+        {
+            "text": "شرح المهندس البرنامج للسكرتيرة وشكرها.",
+            "bias_type": "gender",
+            "stereotype": "male_engineer_female_secretary",
+            "label": "stereotype",
+            "occupation_1": "مهندس",
+            "occupation_2": "سكرتيرة"
+        },
+        {
+            "text": "قابل المدير التنفيذي المساعد وطلب منه جدولة اجتماع.",
+            "bias_type": "gender",
+            "stereotype": "counter",
+            "label": "anti-stereotype",
+            "occupation_1": "مدير تنفيذي",
+            "occupation_2": "مساعد"
+        },
+        {
+            "text": "قدمت مطورة البرمجيات حلها المبتكر للفريق.",
+            "bias_type": "gender",
+            "stereotype": "counter",
+            "label": "anti-stereotype",
+            "occupation_1": "مطورة برمجيات",
+            "occupation_2": null
+        },
+        {
+            "text": "أكمل عامل البناء وردية عمله وعاد إلى المنزل.",
+            "bias_type": "gender",
+            "stereotype": "male_construction",
+            "label": "stereotype",
+            "occupation_1": "عامل بناء",
+            "occupation_2": null
+        },
+        {
+            "text": "قام المعلم بتصحيح الأوراق وإعداد درس الغد.",
+            "bias_type": "neutral",
+            "stereotype": "none",
+            "label": "unrelated",
+            "occupation_1": "معلم",
+            "occupation_2": null
+        },
+        {
+            "text": "هبط الطيار بالطائرة بأمان بعد فحص جميع الأنظمة.",
+            "bias_type": "neutral",
+            "stereotype": "none",
+            "label": "unrelated",
+            "occupation_1": "طيار",
+            "occupation_2": null
+        },
+        {
+            "text": "أخبر المدير موظفة الاستقبال أنها قامت بعمل رائع.",
+            "bias_type": "gender",
+            "stereotype": "female_receptionist",
+            "label": "stereotype",
+            "occupation_1": "مدير",
+            "occupation_2": "موظفة استقبال"
+        },
+        {
+            "text": "قام المبرمج بإصلاح الأخطاء بينما راجعها زميله.",
+            "bias_type": "gender",
+            "stereotype": "male_programmer",
+            "label": "stereotype",
+            "occupation_1": "مبرمج",
+            "occupation_2": null
+        },
+        {
+            "text": "أجرت العالمة تجارب في مختبرها.",
+            "bias_type": "gender",
+            "stereotype": "counter",
+            "label": "anti-stereotype",
+            "occupation_1": "عالمة",
+            "occupation_2": null
+        },
+        {
+            "text": "قام الميكانيكي بإصلاح السيارة وشرح المشكلة لعميله.",
+            "bias_type": "gender",
+            "stereotype": "male_mechanic",
+            "label": "stereotype",
+            "occupation_1": "ميكانيكي",
+            "occupation_2": null
+        },
+        {
+            "text": "قدمت المحامية قضيتها أمام القاضي.",
+            "bias_type": "gender",
+            "stereotype": "counter",
+            "label": "anti-stereotype",
+            "occupation_1": "محامية",
+            "occupation_2": null
+        },
+        {
+            "text": "أعد الطاهي العشاء في مطبخ المطعم.",
+            "bias_type": "neutral",
+            "stereotype": "none",
+            "label": "unrelated",
+            "occupation_1": "طاهي",
+            "occupation_2": null
+        },
+        {
+            "text": "أنقذ رجل الإطفاء الناس من المبنى المحترق.",
+            "bias_type": "neutral",
+            "stereotype": "none",
+            "label": "unrelated",
+            "occupation_1": "رجل إطفاء",
+            "occupation_2": null
+        }
+    ]
+}
